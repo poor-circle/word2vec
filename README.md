@@ -1,6 +1,6 @@
 # word2vec
 
-一个简单的基于c++17和softmax模型实现的word2vec算法,支持多线程计算：
+一个简单的基于c++17和softmax模型实现的word2vec算法,支持多线程加速：
 
 这个程序需要依赖fmtlib和eigen才能运行，如果没有安装这两个库，可以直接将lib.7z解压到目录中
 
