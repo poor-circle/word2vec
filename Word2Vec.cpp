@@ -1,12 +1,3 @@
-//编译参数：g++ Word2Vec.cpp -o Word2Vec -Wall -Ofast -fopenmp -static-libgcc  -std=c++17 -march=native
-//训练词向量：./Word2Vec skip-gram text8 ans.out ./Word2Vec cbow text8 ans.out
-//同样配置下，cbow快但质量低，skip-gram慢但是质量高
-//cbow多迭代几次（大约是窗口的平均大小），效果和耗时就接近skip-gram了，但是skip-gram对低频词效果还是更好一点
-//测试词向量质量： ./Word2Vec ans.out
-//输入单词来测试训练结果
-//也可输入含+/-号的表达式：例如，输入female-male+men,理论上最接近的应该是women
-//调整参数：请见base.h
-
 #include "HuffmanTree.hpp"
 #include "Word2VecDetail.hpp"
 #include <bits/stdc++.h>
