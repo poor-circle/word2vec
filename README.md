@@ -12,7 +12,9 @@
 
 训练词向量：./Word2Vec skip-gram text8 ans.out 或 ./Word2Vec cbow text8 ans.out 
 
-测试词向量质量： ./Word2Vec ans.out 可输入一个单词，也可输入多个单词组成的表达式，例如，输入female-male+men,最接近的单词很可能是women
+测试词向量质量： ./Word2Vec ans.out 
+
+可输入一个单词，也可输入多个单词组成的表达式，例如，输入female-male+men,最接近的单词很可能是women
 
 参数设定：位于base.h
 
