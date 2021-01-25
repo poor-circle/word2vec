@@ -13,7 +13,7 @@ namespace Word2Vec
     constexpr int VecDim=300;//向量维度
     constexpr int minWordCount=5;//罕见词过滤
     constexpr float_t maxWordFrequency=0.001;//词频过滤
-    constexpr int precalAccuracy=10000;//预处理sigmond函数
+    constexpr int precalAccuracy=10000;//预处理sigmond函数的精度
     constexpr float_t precalRange=20.0;//预处理的范围[-20,20]
     constexpr int WindowMin=1;//窗口大小
     constexpr int WindowMax=5;
